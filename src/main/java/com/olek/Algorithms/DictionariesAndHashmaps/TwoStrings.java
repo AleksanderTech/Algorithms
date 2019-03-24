@@ -10,7 +10,6 @@ import java.util.Set;
 public class TwoStrings {
 
 	static String twoStrings(String s1, String s2) {
-		
 		Set<Character> ss1 = new HashSet<>();
 		Set<Character> ss2 = new HashSet<>();
 		for (int i = 0; i < s1.length(); i++) {
