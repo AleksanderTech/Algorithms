@@ -11,7 +11,7 @@ public class MakingAnagrams {
 		int deletions = 0;
 		int[] aFrequency = new int[26];
 		int[] bFrequency = new int[26];
-
+		
 		for (int i = 0; i < a.length(); i++) {
 			char currentChar = a.charAt(i);
 			int charInt = (int) currentChar;
